@@ -1186,7 +1186,7 @@
   });
 
   // ====== LOGOUT BUTTON REFERENCE ======
-  const logoutBtn = document.getElementById('logout-btn');
+  logoutBtn.addEventListener('click', signOut);
   logoutBtn.addEventListener('click', () => {
     logout();
   });
